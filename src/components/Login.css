@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.Login-form {
+    display: flex;
+    justify-content: center;
+    width: 483px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Login-form h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 147px;
+    margin-bottom: 68px;
+}
+
+.form-placement {
+    width:430px;
+}
+
+.form-placement b {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.loginInput {
+    width: 425px;
+    height:40px ;
+    border: none;
+    background: #EEEEEE;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+    text-indent: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.forgetPassword {
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+    text-decoration: underline;
+    padding-bottom: 3px;
+    font-size: 14px;
+    margin-top: 23px;
+    cursor:pointer;
+}
+
+.loginButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 50px;
+    margin-top: 38px;
+    background-color: #1E2772;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    border: 1px solid #1E2772 ;
+    cursor:pointer;
+}
+
+.signUpButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    width: 430px;
+    height: 50px;
+    border: 1px solid #1E2772;
+    color: #1E2772;
+    background-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.LoginPage {
+    display: flex;
+}
+
+.imgHolder1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.img1 {
+    width: 600px;
+    height: 600px;
+}
+
+
+

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.signUpPage {
+    display: flex;
+    width: 825px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.signUpForm1 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 80px;
+    margin-bottom: 70px;
+    width: 825px;
+}
+
+.signupForm2 {
+    display: flex;
+}
+
+.signupForm2 b {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.firstRow {
+    margin-left: 50px;
+}
+
+.singUpInput {
+    width: 336px;
+    height: 50px;
+    border: none;
+    background: #EEEEEE;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+    text-indent: 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.signUpButton2 {
+    height: 50px;
+    width: 215px;
+    background-color: #1E2772;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.signup-button-container {
+    display: flex;
+    justify-content: center;
+    width:825px;
+    margin-top: 50px;
+}
+
+.imgHolder2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.img2 {
+    width: 500px;
+    height: 500px;
+}
+

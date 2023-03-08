@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 255px auto;
+}
+
+.mainPage {
+    display: grid;
+    grid-template-rows: 100px auto;
+    font-family: Poppins;
+
+}
+
+.mainPage h1 {
+    font-size: 20px;
+    color: 
+    #252733;
+}
+
+hr {
+    height: 1px;
+}
+
+.mainPageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-page {
+    display: flex;
+    margin-top: 36px;
+    margin-left: 30px;
+    justify-content: space-between;
+
+}
+
+.name-pfp {
+    display: flex;
+    margin-right: 50px;
+}
+
+.pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: grey;
+    margin-left: 15px;
+}
